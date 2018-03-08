@@ -1,0 +1,80 @@
+body {
+  background-color: #fcf9ee;
+}
+
+.main {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.main div {
+  text-align: center;
+}
+
+#logo {
+  margin: 14px auto;
+}
+
+#logo img {
+  width: 140px;
+}
+
+#field {
+  padding-left: 24px;
+  margin: 22px;
+}
+
+.textsep {
+  margin: 1.4em;
+}
+
+.tagline {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.impact {
+  margin: 6px;
+  font-size: 1.3em;
+}
+
+.smallimpact {
+  margin: 4px;
+  font-size: 1.05em;
+}
+
+div.hr {
+  border: 1px solid #aaa;
+  height: 1px;
+  margin: 30px 0;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#description, #quote {
+  top: 13em;
+}
+
+p {
+  line-height: 1.44;
+}
+
+#description {
+  position: absolute;
+  left: 24em;
+  width: 480px;
+  text-align: right;
+}
+
+#quote {
+  position: absolute;
+  right: 20em;
+  width: 520px;
+  text-align: left;
+  font-style: italic;
+}
