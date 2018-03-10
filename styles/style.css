@@ -2,17 +2,28 @@ body {
   background-color: #fcf9ee;
 }
 
-.main {
-  width: 800px;
+.container {
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+.upper-content {
+  background-image:url(../content/fieldgraphic.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 3em 0;
+  min-height: 300px;
 }
 
 .main div {
   text-align: center;
+  display: block;
 }
 
 #logo {
-  margin: 14px auto;
+  margin: 14px auto; /* not sure if still needed */
+  display: block;
+  text-align: center;
 }
 
 #logo img {
@@ -22,6 +33,21 @@ body {
 #field {
   padding-left: 24px;
   margin: 22px;
+  display:inline;
+  z-index: -1;
+}
+
+#description {
+  text-align: right;
+}
+
+#quote {
+  text-align: left;
+  font-style: italic;
+}
+
+#description, #quote {
+  padding-top: 3em;
 }
 
 .textsep {
@@ -56,24 +82,22 @@ hr {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-#description, #quote {
-  top: 13em;
-}
-
 p {
   line-height: 1.44;
 }
 
 #description {
   position: absolute;
-  left: 24em;
+  right: 50%;
+  padding-right: 6em;
   width: 480px;
   text-align: right;
 }
 
 #quote {
   position: absolute;
-  right: 20em;
+  left: 50%;
+  padding-left: 3em;
   width: 520px;
   text-align: left;
   font-style: italic;
