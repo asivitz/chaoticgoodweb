@@ -78,3 +78,7 @@ p {
   text-align: left;
   font-style: italic;
 }
+
+.walloftext ul, .walloftext h3 {
+  text-align: left;
+}
