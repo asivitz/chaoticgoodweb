@@ -1,5 +1,6 @@
 body {
   background-color: #fcf9ee;
+  font-size: 20px;
 }
 
 .container {
@@ -11,7 +12,7 @@ body {
   background-image:url(../content/fieldgraphic.png);
   background-position: center;
   background-repeat: no-repeat;
-  padding: 3em 0;
+  padding: 2.2em 0 0 0;
   min-height: 300px;
 }
 
@@ -47,7 +48,7 @@ body {
 }
 
 #description, #quote {
-  padding-top: 3em;
+  padding-top: 2em;
 }
 
 .textsep {
@@ -55,12 +56,13 @@ body {
 }
 
 .tagline {
-  width: 400px;
+  width: 30em;
   margin: 0 auto;
+  font-size: 1.1em;
 }
 
 .impact {
-  margin: 6px;
+  margin: 0.5em;
   font-size: 1.3em;
 }
 
@@ -90,7 +92,7 @@ p {
   position: absolute;
   right: 50%;
   padding-right: 6em;
-  width: 480px;
+  width: 32em;
   text-align: right;
 }
 
@@ -98,11 +100,25 @@ p {
   position: absolute;
   left: 50%;
   padding-left: 4em;
-  width: 520px;
+  width: 32em;
   text-align: left;
   font-style: italic;
 }
 
 .walloftext ul, .walloftext h3 {
   text-align: left;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
 }
