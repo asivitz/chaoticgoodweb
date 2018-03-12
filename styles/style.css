@@ -28,7 +28,8 @@ body {
 }
 
 #logo img {
-  width: 592px;
+  width: 100%;
+  max-width: 592px;
 }
 
 #field {
@@ -36,19 +37,6 @@ body {
   margin: 22px;
   display:inline;
   z-index: -1;
-}
-
-#description {
-  text-align: right;
-}
-
-#quote {
-  text-align: left;
-  font-style: italic;
-}
-
-#description, #quote {
-  padding-top: 2em;
 }
 
 .textsep {
@@ -88,23 +76,6 @@ p {
   line-height: 1.44;
 }
 
-#description {
-  position: absolute;
-  right: 50%;
-  padding-right: 6em;
-  width: 32em;
-  text-align: right;
-}
-
-#quote {
-  position: absolute;
-  left: 50%;
-  padding-left: 4em;
-  width: 32em;
-  text-align: left;
-  font-style: italic;
-}
-
 .walloftext ul, .walloftext h3 {
   text-align: left;
 }
@@ -124,4 +95,47 @@ h3 {
 li {
   list-style-type: none;
   margin: 0.3em 0;
+}
+
+#quote {
+  font-style: italic;
+}
+
+#description, #quote {
+  max-width: 32em;
+  width: auto;
+}
+
+@media (max-width: 799px)
+{
+  #description {
+    padding-bottom: 10em;
+  }
+}
+
+@media (min-width: 800px)
+{
+  #description {
+    text-align: right;
+  }
+
+  #quote {
+    text-align: left;
+  }
+
+  #description, #quote {
+    padding-top: 2em;
+  }
+
+  #description {
+    position: absolute;
+    right: 50%;
+    padding-right: 5em;
+  }
+
+  #quote {
+    position: absolute;
+    left: 50%;
+    padding-left: 3.5em;
+  }
 }
