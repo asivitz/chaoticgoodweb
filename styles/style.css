@@ -17,7 +17,6 @@ body {
 }
 
 .main div {
-  text-align: center;
   display: block;
 }
 
@@ -76,10 +75,6 @@ p {
   line-height: 1.44;
 }
 
-.walloftext ul, .walloftext h3 {
-  text-align: left;
-}
-
 h2 {
   font-size: 1.3em;
   font-weight: bold;
@@ -90,6 +85,8 @@ h2 {
 h3 {
   font-size: 1.1em;
   font-weight: bold;
+  margin: 1em 0 0.5em 0;
+  letter-spacing: 0.01em;
 }
 
 li {
